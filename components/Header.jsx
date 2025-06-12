@@ -1,0 +1,82 @@
+import React from "react";
+import Image from "next/image";
+
+const downloadOptions = [
+  {
+    subtitle: "Download on the",
+    platform: "App Store",
+    icon: "/headericons/apple.svg",
+  },
+  {
+    subtitle: "Download on the",
+    platform: "Google Play",
+    icon: "/headericons/play.svg",
+  },
+];
+
+export default function Header() {
+  return (
+    <div className="flex  flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto mt-16 px-4 md:px-6 gap-12">
+      {/* Left Content */}
+      <div className="flex flex-col w-full lg:w-1/2 items-start gap-12 text-center lg:text-left">
+        {/* Tag + Title + Subtitle */}
+        <div className="flex flex-col items-center lg:items-start gap-5 w-full">
+          <span className="px-3 py-2 bg-indigo-600/10 text-indigo-600 rounded-full font-medium text-xs">
+            HalalConnect
+          </span>
+
+          <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl tracking-tight leading-tight text-gray-900">
+            Find Yourself a Perfect Match —{" "}
+            <span className="text-pink-600">Halal</span>{" "}
+            <span className="text-indigo-600">Way</span>
+          </h1>
+
+          <p className="text-gray-700 text-base md:text-lg font-medium leading-relaxed max-w-lg">
+            A safe and respectful way to find your ideal partner—built on trust,
+            compatibility, and meaningful connections.
+          </p>
+        </div>
+
+        {/* Download Buttons */}
+        <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 md:gap-6 w-full">
+          {downloadOptions.map((option, index) => (
+            <button
+              key={index}
+              className="flex items-center gap-3 bg-black hover:bg-gray-800 rounded-lg p-2 md:p-3"
+            >
+              {option.icon && (
+                <div className="w-8 h-8">
+                  <Image
+                    src={option.icon}
+                    alt={`${option.platform} icon`}
+                    width={32}
+                    height={32}
+                    className="object-contain w-auto h-auto"
+                  />
+                </div>
+              )}
+
+              <div className="flex flex-col items-start text-white text-xs leading-4">
+                <span>{option.subtitle}</span>
+                <strong className="font-medium">{option.platform}</strong>
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Right Image */}
+      <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-end">
+        <div className="relative w-80 md:w-96 lg:w-[400px] xl:w-[496px] h-80 md:h-96 lg:h-[400px] xl:h-[487px]">
+          <Image
+            src="/headericons/right.svg"
+            alt="App preview"
+            fill
+            priority
+            className="object-contain"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
