@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lottie-react": "^2.4.1",
     "next": "15.3.3",
+    "nextjs-progressbar": "^0.0.16",
+    "nprogress": "^0.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-spinners": "^0.17.0"

@@ -2,7 +2,6 @@ import Navbar from "../components/Navbar";
 import "./globals.css";
 import Footer from "../components/Footer";
 import { Outfit } from "next/font/google";
-import PageWrapper from "components/pageloader";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -19,11 +18,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={outfit.className}>
       <body>
-        <PageWrapper>
-          <Navbar />
-          {children}
-          <Footer />
-        </PageWrapper>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );

@@ -64,7 +64,7 @@ const Questions = () => {
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
               className={`flex items-center justify-between p-4 md:p-5 w-full rounded-2xl cursor-pointer transition-all duration-300 ${
-                activeCategory === category.id
+                activeCategory.toString() === category.id
                   ? "bg-indigo-600 hover:bg-indigo-700 text-white"
                   : "bg-gray-100 hover:bg-gray-200 text-gray-900"
               }`}
@@ -77,7 +77,7 @@ const Questions = () => {
                     height={24}
                     alt={`${category.name} icon`}
                     className={`w-5 h-5 md:w-6 md:h-6 transition-all duration-300 ${
-                      activeCategory === category.id
+                      activeCategory.toString() === category.id
                         ? "invert brightness-0"
                         : "invert-0 brightness-0"
                     }`}
@@ -94,12 +94,16 @@ const Questions = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 className={`transition-transform duration-300 ${
-                  activeCategory === category.id ? "rotate-90" : ""
+                  activeCategory.toString() === category.id ? "rotate-90" : ""
                 }`}
               >
                 <path
                   d="M8.91001 20.67C8.72001 20.67 8.53001 20.6 8.38001 20.45C8.09001 20.16 8.09001 19.68 8.38001 19.39L14.9 12.87C15.38 12.39 15.38 11.61 14.9 11.13L8.38001 4.61002C8.09001 4.32002 8.09001 3.84002 8.38001 3.55002C8.67001 3.26002 9.15001 3.26002 9.44001 3.55002L15.96 10.07C16.47 10.58 16.76 11.27 16.76 12C16.76 12.73 16.48 13.42 15.96 13.93L9.44001 20.45C9.29001 20.59 9.10001 20.67 8.91001 20.67Z"
-                  fill={activeCategory === category.id ? "#ffffff" : "#222222"}
+                  fill={
+                    activeCategory.toString() === category.id
+                      ? "#ffffff"
+                      : "#222222"
+                  }
                 />
               </svg>
             </div>

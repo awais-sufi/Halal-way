@@ -25,11 +25,11 @@ export default function Header() {
             HalalConnect
           </span>
 
-          <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl tracking-tight leading-tight text-gray-900">
+          <div className="font-semibold text-3xl md:text-4xl lg:text-5xl tracking-tight leading-tight text-gray-900">
             Find Yourself a Perfect Match —{" "}
             <span className="text-pink-600">Halal</span>{" "}
             <span className="text-indigo-600">Way</span>
-          </h1>
+          </div>
 
           <p className="text-gray-700 text-base md:text-lg font-medium leading-relaxed max-w-lg">
             A safe and respectful way to find your ideal partner—built on trust,
@@ -45,7 +45,7 @@ export default function Header() {
               className="flex items-center gap-3 bg-black hover:bg-gray-800 rounded-lg p-2 md:p-3"
             >
               {option.icon && (
-                <div className="w-8 h-8">
+                <div>
                   <Image
                     src={option.icon}
                     alt={`${option.platform} icon`}
