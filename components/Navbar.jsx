@@ -110,14 +110,14 @@ const Navbar = () => {
       </header>
 
       {pathname === "/privacy" && (
-        <div className="mb-12 bg-gradient-to-r from-pink-50 via-pink-100 to-pink-50 py-20 rounded-xl shadow-sm">
+        <div className="mb-12 bg-gradient-to-r from-pink-50 via-pink-100 to-pink-50 py-20">
           <h1 className="text-4xl md:text-5xl font-medium text-black-700 max-w-6xl mx-auto px-4 leading-tight tracking-tight">
             Privacy Policy
           </h1>
         </div>
       )}
       {pathname === "/terms" && (
-        <div className="mb-12 bg-gradient-to-r from-pink-50 via-pink-100 to-pink-50 py-20 rounded-xl shadow-sm">
+        <div className="mb-12 bg-gradient-to-r from-pink-50 via-pink-100 to-pink-50 py-20">
           <h1 className="text-4xl md:text-5xl font-medium text-black-700 max-w-6xl mx-auto px-4 leading-tight tracking-tight">
             Terms & Conditions
           </h1>

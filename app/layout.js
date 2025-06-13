@@ -1,7 +1,7 @@
-import Navbar from "../components/Navbar";
 import "./globals.css";
 import Footer from "../components/Footer";
 import { Outfit } from "next/font/google";
+import Navbar from "components/Navbar";
 
 const outfit = Outfit({
   subsets: ["latin"],

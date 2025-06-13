@@ -8,8 +8,7 @@ import Questions from "../components/Questions";
 import Action from "../components/Action";
 import Show from "../components/Show";
 
-const Page = async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+const Page = () => {
   return (
     <main>
       <Header />
