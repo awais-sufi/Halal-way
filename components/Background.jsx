@@ -27,7 +27,7 @@ const Background = () => {
     <section className="relative w-full max-w-6xl mx-auto rounded-3xl md:rounded-[40px] bg-gradient-to-br from-indigo-600 to-indigo-800 py-8 md:py-12 px-4 md:px-8 lg:px-12 my-8 md:my-12 lg:my-16">
       <div className="relative flex flex-col lg:flex-row items-center justify-center gap-6 rounded-2xl md:rounded-3xl bg-gradient-to-b from-pink-500 to-pink-600 px-6 md:px-8 lg:px-12 mb-8 md:mb-12 lg:mb-16 ">
         <div className="w-full lg:w-1/2 flex flex-col gap-4 items-center  mb-8 lg:mb-0">
-          <div className="bg-white skew-x-12 skew-y-6  shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+          <div className="bg-white shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
