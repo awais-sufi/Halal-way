@@ -24,20 +24,78 @@ const features = [
 
 const Background = () => {
   return (
-    <section className="relative w-full max-w-6xl mx-auto rounded-3xl md:rounded-[40px] bg-gradient-to-br from-indigo-600 to-indigo-800 py-8 md:py-12 lg:py-16 px-4 md:px-8 lg:px-12 my-8 md:my-12 lg:my-16">
-      <div className="relative rounded-2xl md:rounded-3xl bg-gradient-to-b from-pink-500 to-pink-600  px-6 md:px-8 lg:px-12 mb-8 md:mb-12 lg:mb-16 overflow-hidden">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-          <div className="hidden lg:block lg:w-1/3"></div>
-          <div className="relative w-full lg:w-2/3 flex justify-center lg:justify-end">
-            <div className="relative">
-              <Image
-                className="w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto"
-                alt="App showcase"
-                src="/backgroundicons/top.svg"
-                width={688}
-                height={548}
-              />
-            </div>
+    <section className="relative w-full max-w-6xl mx-auto rounded-3xl md:rounded-[40px] bg-gradient-to-br from-indigo-600 to-indigo-800 py-8 md:py-12 px-4 md:px-8 lg:px-12 my-8 md:my-12 lg:my-16">
+      <div className="relative flex flex-col lg:flex-row items-center justify-center gap-6 rounded-2xl md:rounded-3xl bg-gradient-to-b from-pink-500 to-pink-600 px-6 md:px-8 lg:px-12 mb-8 md:mb-12 lg:mb-16 ">
+        <div className="w-full lg:w-1/2 flex flex-col gap-4 items-center  mb-8 lg:mb-0">
+          <div className="bg-white skew-x-12 skew-y-6  shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+            <Image
+              src="/backgroundicons/crown.svg"
+              alt="crown"
+              width={22}
+              height={22}
+              className="mb-4 self-start"
+            />
+
+            <span className="text-black font-medium">Friendship</span>
+            <Image
+              src="/backgroundicons/staric.svg"
+              alt="staric"
+              width={9}
+              height={9}
+              className="mt-4 self-end"
+            />
+          </div>
+
+          <div className="bg-white  shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+            <Image
+              src="/backgroundicons/crown.svg"
+              alt="crown"
+              width={22}
+              height={22}
+              className="mb-4 self-start"
+            />
+            <span className="text-black font-medium">Ideal Match</span>
+            <Image
+              src="/backgroundicons/staric.svg"
+              alt="staric"
+              width={9}
+              height={9}
+              className="mt-4 self-end"
+            />
+          </div>
+
+          <div
+            className="bg-white 
+ shadow-md px-4 py-4 rounded-full flex items-center space-x-2"
+          >
+            <Image
+              src="/backgroundicons/crown.svg"
+              alt="crown"
+              width={22}
+              height={22}
+              className="mb-4 self-start"
+            />
+            <span className="text-black font-medium">Like Minded</span>
+            <Image
+              src="/backgroundicons/staric.svg"
+              alt="staric"
+              width={9}
+              height={9}
+              className="mt-4 self-end"
+            />
+          </div>
+        </div>
+
+        {/* Right Side - Image (50%) */}
+        <div className="flex justify-center">
+          <div className="relative w-full max-w-md rounded-[30%] overflow-hidden">
+            <Image
+              src="/backgroundicons/top.svg"
+              alt="App showcase"
+              width={688}
+              height={548}
+              className="object-cover w-full h-auto"
+            />
           </div>
         </div>
       </div>
