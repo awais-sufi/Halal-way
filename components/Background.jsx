@@ -31,10 +31,15 @@ const Background = () => {
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
+<<<<<<< HEAD
               unoptimized
               width={22}
               height={22}
               style={{ width: "22px", height: "22px" }}
+=======
+              width={22}
+              height={22}
+>>>>>>> adf30627ee4742db125ba99e5b2f1323b9eb342d
               className="mb-4 self-start"
             />
 
@@ -52,6 +57,7 @@ const Background = () => {
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
+<<<<<<< HEAD
               unoptimized
               width={22}
               height={22}
@@ -59,6 +65,12 @@ const Background = () => {
               className="mb-4 self-start"
             />
 
+=======
+              width={22}
+              height={22}
+              className="mb-4 self-start"
+            />
+>>>>>>> adf30627ee4742db125ba99e5b2f1323b9eb342d
             <span className="text-black font-medium">Ideal Match</span>
             <Image
               src="/backgroundicons/staric.svg"
@@ -76,6 +88,7 @@ const Background = () => {
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
+<<<<<<< HEAD
               unoptimized
               width={22}
               height={22}
@@ -83,6 +96,12 @@ const Background = () => {
               className="mb-4 self-start"
             />
 
+=======
+              width={22}
+              height={22}
+              className="mb-4 self-start"
+            />
+>>>>>>> adf30627ee4742db125ba99e5b2f1323b9eb342d
             <span className="text-black font-medium">Like Minded</span>
             <Image
               src="/backgroundicons/staric.svg"
