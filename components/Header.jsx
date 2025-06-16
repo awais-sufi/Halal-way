@@ -46,7 +46,6 @@ export default function Header() {
                 className="flex items-center gap-3 bg-black hover:bg-gray-800 rounded-lg p-2 md:p-3"
               >
                 {option.icon && (
-<<<<<<< HEAD
                   <Image
                     src={option.icon}
                     alt={`${option.platform} icon`}
@@ -55,17 +54,6 @@ export default function Header() {
                     unoptimized
                     style={{ width: "32px", height: "32px" }}
                   />
-=======
-                  <div>
-                    <Image
-                      src={option.icon}
-                      alt={`${option.platform} icon`}
-                      width={32}
-                      height={32}
-                      className="object-contain w-auto h-auto"
-                    />
-                  </div>
->>>>>>> adf30627ee4742db125ba99e5b2f1323b9eb342d
                 )}
 
                 <div className="flex flex-col items-start text-white text-xs leading-4">

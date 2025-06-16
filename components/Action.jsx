@@ -25,7 +25,6 @@ const Action = () => {
           <Image
             src="/icons/whitelogo.svg"
             alt="Halal-Way Logo"
-<<<<<<< HEAD
             unoptimized
             width={114}
             height={95}
@@ -33,12 +32,6 @@ const Action = () => {
             style={{ width: "114px", height: "95px" }}
           />
 
-=======
-            width={114}
-            height={95}
-            priority
-          />
->>>>>>> adf30627ee4742db125ba99e5b2f1323b9eb342d
           <h2 className="text-xl md:text-2xl lg:text-4xl font-bold">
             <span className="text-white">Your </span>
             <span className="text-gray-900">Nikkah</span>
