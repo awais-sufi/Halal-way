@@ -25,11 +25,11 @@ const features = [
 const Background = () => {
   return (
     <section className="relative w-full max-w-6xl mx-auto rounded-3xl md:rounded-[40px] bg-gradient-to-br from-indigo-600 to-indigo-800 py-8 md:py-12 px-4 md:px-8 lg:px-12 my-8 md:my-12 lg:my-16">
-      <div className="flex flex-col lg:flex-row items-start justify-between rounded-2xl md:rounded-3xl bg-gradient-to-b from-pink-500 to-pink-600 px-6 md:px-8 lg:px-12  gap-10 lg:gap-16 mb-8 md:mb-12 lg:mb-16">
+      <div className="flex flex-col lg:flex-row items-center justify-between rounded-2xl md:rounded-3xl bg-gradient-to-b from-pink-500 to-pink-600 px-6 md:px-8 lg:px-12  gap-10 lg:gap-16 mb-8 md:mb-12 lg:mb-16">
         {/* Left Side - Cards (auto width) */}
-        <div className="flex flex-col gap-8 justify-between h-full">
+        <div className="flex flex-col gap-12 py-10 justify-between h-full">
           {/* Friendship - Top */}
-          <div className="bg-white shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+          <div className="bg-white rotate-12 shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
@@ -51,7 +51,7 @@ const Background = () => {
           </div>
 
           {/* Ideal Match - Center */}
-          <div className="bg-white shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+          <div className="bg-white rotate-12 px-4 py-4 rounded-full flex items-center space-x-2">
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
@@ -73,7 +73,7 @@ const Background = () => {
           </div>
 
           {/* Like Minded - Bottom */}
-          <div className="bg-white shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+          <div className="bg-white rotate-12 shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
