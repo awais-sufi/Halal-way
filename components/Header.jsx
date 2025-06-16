@@ -69,11 +69,12 @@ export default function Header() {
         <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-end mt-12 lg:mt-0">
           <div className="relative w-80 md:w-96 lg:w-[400px] xl:w-[496px] h-80 md:h-96 lg:h-[400px] xl:h-[487px]">
             <Image
-              src="/headericons/right.svg"
+              src="/headericons/right.webp"
               alt="App preview"
-              fill
+              width={496}
+              height={487}
               priority
-              className="object-contain"
+              className="object-contain w-full h-auto"
             />
           </div>
         </div>
