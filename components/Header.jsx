@@ -67,16 +67,15 @@ export default function Header() {
 
         {/* Right Image */}
         <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-end mt-12 lg:mt-0">
-          <div className="relative w-80 md:w-96 lg:w-[400px] xl:w-[496px] h-80 md:h-96 lg:h-[400px] xl:h-[487px]">
-            <Image
-              src="/headericons/right.webp"
-              alt="App preview"
-              width={496}
-              height={487}
-              priority
-              className="object-contain w-full h-auto"
-            />
-          </div>
+          <Image
+            src="/headericons/left.webp"
+            alt="App preview"
+            width={496}
+            height={487}
+            priority
+            fetchPriority="high"
+            style={{ height: "auto", width: "auto" }}
+          />
         </div>
       </div>
     </section>
