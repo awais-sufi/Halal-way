@@ -11,7 +11,7 @@ const outfit = Outfit({
 export const metadata = {
   title: "Halal-Way",
   description:
-    "Discover Halal-Way your trusted guide to halal food, products, and lifestyle. Find verified halal options and live your values with confidence.",
+    "I believe in building a relationship that aligns with Islamic values — with mutual respect, clear intentions, and the goal of marriage (nikah). I value honesty, commitment, and family involvement to keep things halal.",
 };
 
 export default function RootLayout({ children }) {
