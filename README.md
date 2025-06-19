@@ -25,8 +25,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/subscription-tracker-api.git
-cd subscription-tracker-api
+git clone https://github.com/awais-sufi/Halal-way.git
+cd Halal-way
 ```
 
 **Installation**
