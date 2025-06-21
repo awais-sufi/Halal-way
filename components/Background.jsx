@@ -29,7 +29,7 @@ const Background = () => {
         {/* Left Side - Cards (auto width) */}
         <div className="flex flex-col gap-12 py-10 justify-between h-full">
           {/* Friendship - Top */}
-          <div className="bg-white rotate-12 shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
+          {/* <div className="bg-white -  rotate-[24deg] shadow-md px-4 py-4 rounded-full flex items-center space-x-2">
             <Image
               src="/backgroundicons/crown.svg"
               alt="crown"
@@ -48,7 +48,7 @@ const Background = () => {
               className="self-end"
               unoptimized
             />
-          </div>
+          </div> */}
 
           {/* Ideal Match - Center */}
           <div className="bg-white rotate-12 px-4 py-4 rounded-full flex items-center space-x-2">

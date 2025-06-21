@@ -19,8 +19,8 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <section className="relative w-full bg-gradient-to-r from-pink-50 via-pink-100 to-pink-50 ">
-      <header className="relative flex w-full max-w-6xl items-center justify-between mx-auto pt-4 md:pt-6 px-4 md:px-6 bg-transparent">
+    <section className=" w-full fixed z-50  bg-gradient-to-r  from-pink-50 via-pink-100 to-pink-50 ">
+      <header className=" flex  max-w-[1240px] items-center justify-between mx-auto bg-transparent">
         <Image
           className="w-16 h-12 md:w-[86px] md:h-[72px]"
           alt="Navbar Logo"
