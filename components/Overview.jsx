@@ -73,7 +73,7 @@ const Overview = () => {
                     feature.textFirst ? "lg:flex-row" : "lg:flex-row-reverse"
                   } items-center justify-between gap-8 lg:gap-12`}
                 >
-                  <div className="flex flex-col w-full lg:w-1/2 items-start gap-4 md:gap-6 text-center lg:text-left">
+                  <div className="flex flex-col w-full lg:w-1/2 gap-4 md:gap-6 text-center lg:text-left">
                     <h2 className=" font-bold text-gray-900 text-2xl md:text-3xl leading-tight">
                       {feature.title}
                     </h2>
