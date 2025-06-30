@@ -103,8 +103,6 @@ const Background = () => {
             width={688}
             height={548}
             className="object-contain"
-            priority
-            fetchPriority="high"
             unoptimized
           />
         </div>

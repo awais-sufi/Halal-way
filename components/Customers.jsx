@@ -31,8 +31,8 @@ const Customers = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-28 w-full max-w-6xl">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="relative rounded-3xl">
-            <div className="absolute inset-0 bg-gradient-to-br to-pink-500/20 from-indigo-500/20 rounded-3xl transform rotate-12 scale-105" />
+          <div key={index} className="relative">
+            <div className="absolute inset-0 bg-gradient-to-br to-pink-500/20 from-indigo-500/20 rounded-3xl rotate-12 scale-90" />
 
             <div className="relative bg-white rounded-3xl p-4 md:p-6 shadow-lg flex flex-col items-center justify-between gap-6">
               <div className="flex items-center gap-1">
